@@ -1,6 +1,7 @@
 Feature: US1009 Kullanici coklu arama yapar
-@wip
-  Scenario Outline:TC15 Kullanici bir listedeki elementleri aratabilmeli
+
+  @Smoke
+  Scenario Outline: : TC15 Kullanici bir listedeki elementleri aratabilmeli
 
     Given kullanici "toUrl" anasayfaya gider
     Then arama kutusuna "<aranacakKelimeler>" yazip ENTER tusuna basar
@@ -8,15 +9,14 @@ Feature: US1009 Kullanici coklu arama yapar
     Then 1 saniye bekler
     And sayfayi kapatir
 
-
-  Examples:
-  |aranacakKelimeler|
-  |phone            |
-  |java             |
-  |samsung          |
-  |apple            |
-  |nutella          |
+    Examples:
+      |aranacakKelimeler|
+      |phone            |
+      |java             |
+      |samsung          |
+      |apple            |
+      |nutella          |
 
 
     # eger bir eleman degil, birden fazla eleman aratmak istiyorsak
-    # Scenario yerine Scenario Outline  kullaniriz
+    # Scenario yerine Scenario Outline kullaniriz

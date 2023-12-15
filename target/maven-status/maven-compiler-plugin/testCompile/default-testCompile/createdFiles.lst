@@ -1,0 +1,14 @@
+pages\HerokuPage.class
+runners\ParalelRun2.class
+stepdefinitions\TestotomasyonuStepdefinitions.class
+pages\FacebookPage.class
+stepdefinitions\Hooks.class
+pages\SaucedemoPage.class
+runners\Runner.class
+stepdefinitions\HerokuappStepdefinitions.class
+utilities\Driver.class
+stepdefinitions\SaucedemoStepdefinitions.class
+pages\TestOtomasyonuPage.class
+stepdefinitions\FacebookStepdefinitions.class
+utilities\ConfigReader.class
+runners\ParalelRun1.class
