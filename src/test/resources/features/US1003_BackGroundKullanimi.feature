@@ -1,5 +1,3 @@
-
-
 Feature: US1003 Kullanici bastaki ortak adimlari tek sefer yazabilmeli
 
   Background: baslangictaki ortak adimlar buraya yazilabilir

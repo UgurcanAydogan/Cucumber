@@ -14,4 +14,4 @@ Feature: US1002 Kullanici parametre ile verdigi urunu aratabilmeli
     Then arama kutusuna "cucumber" yazip ENTER tusuna basar
     And arama sonucunda urun bulunamadigini test eder
     And 2 saniye bekler
-    Then sayfayi kapatiryi kapatir
+    Then sayfayi kapatir

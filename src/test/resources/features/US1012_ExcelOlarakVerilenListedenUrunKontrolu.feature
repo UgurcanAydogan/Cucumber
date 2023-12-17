@@ -17,7 +17,3 @@ Feature: US1012 Excel olarak verilen urunler ve min. stok miktarlari testi
       |7           |
       |8           |
       |9           |
-
-
-
-

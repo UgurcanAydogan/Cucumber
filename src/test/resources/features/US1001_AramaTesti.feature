@@ -24,5 +24,3 @@ Feature: US1001 Kullanici testotomasyonu sayfasinda arama yapar
     And arama sonucunda urun bulunamadigini test eder
     And biraz bekler
     Then sayfayi kapatir
-
-
